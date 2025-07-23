@@ -15,14 +15,19 @@ struct ContentView: View {
             
             VStack {
                 Text ("ABOUT ME")
+                    .font(.title)
+                    .foregroundColor(Color(hue: 0.842, saturation: 0.698, brightness: 0.913))
                 Spacer()
                     .frame(width: 0, height: 100)
                 
                 Image ("ami")
                     .resizable()
-                    .frame(width: 200, height: 200)
+                    .frame(width: 150, height: 150)
+                    .clipShape(Circle())
                 
                 Text ("Ami Nahid")
+                    .font(.body)
+                    .foregroundColor(Color(hue: 0.842, saturation: 0.698, brightness: 0.913))
                 
                 HStack {
                     
