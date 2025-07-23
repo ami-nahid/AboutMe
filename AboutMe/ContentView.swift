@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            Color(.systemPink)
+            Color (red: 255/255, green: 187/255, blue: 215/255)
                 .ignoresSafeArea()
             
             VStack {
